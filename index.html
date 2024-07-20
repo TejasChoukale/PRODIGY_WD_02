@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="stopwatch">
+            <div class="display">
+                <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>:<span
+                    id="milliseconds">00</span>
+            </div>
+            <div class="controls">
+                <button id="start" class="btn">Start</button>
+                <button id="pause" class="btn">Pause</button>
+                <button id="reset" class="btn">Reset</button>
+                <button id="lap" class="btn">Lap</button>
+            </div>
+            <div class="laps">
+                <ul id="lapList"></ul>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; 2024 Tejas Choukale</p>
+        </footer>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
